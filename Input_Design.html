@@ -4,26 +4,26 @@
 	<title>Input Design</title>
 	<meta charset="utf-8" name="description" content="Design prototype for Thinkful's front end web development course">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
 </head>
 <body>
 	<header>
-		<h1><img class="logo" src="logo.webp" alt="AnalogSea logo"></h1>
+		<h1 class="logo-container"><img class="logo" src="logo.webp" alt="AnalogSea logo"></h1>
 	</header>
 	<div class="container">
 		<div class="signup-container">
-			<h1>Sign up</h1>
+			<h1 class="sign-up">Sign up</h1>
 			<form>
 				<label for="email" class="email-title">Email</label>
-				<input class="email-input" type="email" name="email" placeholder="foo@bar.com">
-				<label for="password" class="email-password">Password</label>
-				<input class="email-password" type="password" name="email" placeholder="1234passw0rd">
-				<button>Sign up</button>
+				<input class="email-input" type="email" name="email" placeholder="foo@bar.com" required>
+				<label for="password" class="email-title">Password</label>
+				<input class="email-password" type="password" name="email" placeholder="1234passw0rd" required>
+				<button class="button" type="submit">Sign up</button>
 			</form>
 		</div>
 	</div>
 	<footer>
-		<p>Already have an account?<span>Log in</span></p>
+		<p class="Log-in">Already have an account?<span> <a href="/login">Log in</a></span></p>
 	</footer>
 </body>
 </html>

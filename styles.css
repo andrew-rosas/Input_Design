@@ -5,27 +5,20 @@
 
 body{
 	background-color: #3F94E7;	
+	font-family: "Roboto", helvetica, sans-serif;
+	font-size: 18px;
 }
 
 h1{
 	display: inline-block;
-}
-
-.logo{
-	height: 35px;
-}
-
-
-.signup-container{
-	width: 400px;
-	background-color: white;
-	display: inline-block;
+	color: #565656;
+	font-weight: 300;
 }
 
 label{
 	display: block;
 	text-align: left;
-	margin-left: 40px;
+
 }
 
 button, input{
@@ -37,6 +30,57 @@ button, input{
 	margin-right: auto;
 }
 
-input{
+a:link{
+	color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.logo{
+	height: 35px;
+}
+
+.logo-container{
+	padding-top: 60px;
+}
+
+.signup-container{
+	width: 400px;
+	background-color: white;
+	display: inline-block;
+	padding: 20px 40px 40px 40px;
+	border-radius: 3px;
+}
+
+.email-input, .email-password{
 	text-align: left;
+	border: 2px solid white;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.button{
+	font-size: 22px;
+	background-color: #15cd72;
+	border-radius: 3px;
+	color: white;
+	transition: opacity 0.4s;
+}
+
+.button:hover{
+	background-color: #3e8e41;
+	cursor: pointer;
+}
+
+.Log-in{
+	color: white;
+	font-weight: 600;
+
+}
+
+.sign-up{
+	font-size: 35px;
 }
